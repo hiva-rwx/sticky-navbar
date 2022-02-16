@@ -1,0 +1,16 @@
+.drop-down-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  background-color: #04a1d1;
+  min-width: 150px;
+}
+.drop-down-menu > li {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 0.5px solid #5f7285;
+}
+.drop-down-menu > li:last-child {
+  border-bottom: none;
+}
